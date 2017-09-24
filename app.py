@@ -18,12 +18,6 @@ def pic1():
 def pic2():
     return "<img src= \"http://r.ddmcdn.com/s_f/o_1/cx_462/cy_245/cw_1349/ch_1349/w_720/APL/uploads/2015/06/caturday-shutterstock_149320799.jpg \" >"
 
-
-@app.route("/motivate")
-
-def motivate():
-    return "<h1>you\'re incredible</h1>"
-
 if __name__ == "__main__":
     app.debug = True
     app.run()
